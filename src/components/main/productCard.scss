@@ -1,0 +1,81 @@
+.buy-button {
+    width: 100%;
+}
+
+.card-list{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.empty-basket {
+    font-size: 50px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 230px;
+    
+    &__img {
+        width: 230px;
+        height: 230px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    &__img-container {
+        height: fit-content;
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    
+    }
+    &__main-favorite-icon {
+        margin-top: 10px;
+        width: 25px;
+        cursor: pointer;
+    }
+
+    &__main-name {
+        font-size: 18px;
+    }
+
+    &__main-genre {
+        margin: 0;
+        font-size: 14px;
+        font-style: italic;
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 10px;
+    }
+    &__footer-price {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__footer-button {
+        height: 30px;
+        font-size: 14px;
+        padding: 0 10px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        color: #fff;
+        border: none;
+        background-color: rgba(30, 30, 32, 1);
+        cursor: pointer;
+    }
+}

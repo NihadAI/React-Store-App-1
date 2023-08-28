@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "DARK SOULS REMASTERED",
+            "price": 8,
+            "image": "./img/dark-souls-remastered.jpg",
+            "article": 123456,
+            "genre": "Action, RPG"
+        },
+        {
+            "id": 2,
+            "name": "GOD OF WAR",
+            "price": 10,
+            "image": "./img/god-of-war.webp",
+            "article": 234567,
+            "genre": "Action, RPG, adventure"
+        },
+        {
+            "id": 3,
+            "name": "DETROIT: BECOME HUMAN",
+            "price": 12,
+            "image": "./img/detroit-become-human.jpg",
+            "article": 345678,
+            "genre": "Action, adventure"
+        },
+        {
+            "id": 4,
+            "name": "RESIDENT EVIL 2",
+            "price": 13,
+            "image": "./img/resident-evil-2.webp",
+            "article": 456789,
+            "genre": "Action"
+        },
+        {
+            "id": 5,
+            "name": "DARK SOULS 3",
+            "price": 25,
+            "image": "./img/dark-souls-3.webp",
+            "article": 567890,
+            "genre": "Action"
+        },
+        {
+            "id": 6,
+            "name": "NO MANS SKY",
+            "price": 34,
+            "image": "./img/no-mans-sky.png",
+            "article": 678901,
+            "genre": "Action, adventure"
+        },
+        {
+            "id": 7,
+            "name": "HEARTS OF IRON 4",
+            "price": 9,
+            "image": "./img/hearts-of-iron-4.png",
+            "article": 789012,
+            "genre": "Strategy, simulator"
+        },
+        {
+            "id": 8,
+            "name": "DAYS GONE",
+            "price": 10,
+            "image": "./img/days-gone.jpeg",
+            "article": 890123,
+            "genre": "Action, adventure"
+        },
+        {
+            "id": 9,
+            "name": "METRO EXODUS",
+            "price": 15,
+            "image": "./img/metro-exodus.png",
+            "article": 901234,
+            "genre": "Action"
+        },
+        {
+            "id": 10,
+            "name": "HORIZON ZERO DAWN",
+            "price": 10,
+            "image": "./img/horizon-zero-dawn.jpg",
+            "article": 123456,
+            "genre": "Action, adventure"
+        }
+    ]
+}
